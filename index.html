@@ -2,70 +2,74 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-  <link rel="manifest" href="img/favicons/manifest.json">
-  <meta name="theme-color" content="#ffffff">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+		<link rel="manifest" href="img/favicons/manifest.json">
+		<meta name="theme-color" content="#ffffff">
 
-  <!--  YOUR STYLES  -->
-  <link rel="stylesheet" href="css/styles.processed.css">
+		<!--  YOUR STYLES  -->
+		<link rel="stylesheet" href="css/styles.processed.css">
 
-  <title>Movie Trailer</title>
+		<title>Nightcrawler</title>
 </head>
 
-<body class="uk-container">
+<body>
+				
+		<!-- Header -->
+				<header>
+						<h1 class="uk-text-center texture">Nightcrawler</h1>
+				</header>
+	
+		<!-- Page Wrapper -->
+		<main class="uk-container uk-grid">
 
-  <!-- Page Wrapper -->
-  <main uk-grid>
+				<!-- Trailer -->
+				<video>
+      		<source src="https://nickales.github.io/nightcrawler/video/trailer.mp4" poster="img/jake.png" type="video/mp4" />
+      		<source src="https://nickales.github.io/nightcrawler/video/trailer.webm" poster="img/jake.png" type="video/webm" />
+    		</video>
 
-    <!-- Header -->
-    <header class="uk-width-1-1">
-      <h1>Movie Trailer</h1>
-    </header>  
-      
-    <!-- Trailer -->
-    <video>
-      <source src="https://ewuweblab.github.io/movie-trailer/video/trailer.mp4" type="video/mp4" />
-      <source src="https://ewuweblab.github.io/movie-trailer/video/trailer.webm" type="video/webm" />
-    </video>
+				<!-- Content -->
+				<h2 uk-scrollspy="cls:uk-animation-fade; delay:500" class="uk-width-1-1@s uk-text-center">The City Shines Brightest at Night</h2>
+				<article uk-scrollspy="cls:uk-animation-slide-right-medium; delay:700" class="uk-width-1-2@s">
+						<p>When Louis Bloom, a con man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story.</p>
+				</article>
 
-    <!-- Content -->
-    <article class="uk-width-1-2@s">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo expedita necessitatibus harum mollitia in sunt perspiciatis fugit provident magnam deleniti quasi minima, at quo doloribus accusantium inventore recusandae optio aperiam! Lorem
-        ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit in saepe nemo molestiae dignissimos ipsa enim, vel illo incidunt officia! Dolorem suscipit odio aliquid non libero sapiente! Consequuntur, error, quam!</p>
-    </article>
+				<!-- Aside -->
+				<aside uk-scrollspy="cls:uk-animation-slide-bottom-small; delay:200" class="uk-width-1-1@s uk-text-center">
+						<ul>
+								<li><a href="https://www.imdb.com/title/tt2872718/">7.9/10 audience score - IMDb</a></li>
+								<li><a href="https://www.rottentomatoes.com/m/nightcrawler/">95% critic/85% audience - Rotten Tomatoes</a></li>
+								<li><a href="https://en.wikipedia.org/wiki/Nightcrawler_(film)">Read more on Wikipedia</a></li>
+						</ul>
+				</aside>
 
-    <!-- Aside -->
-    <aside class="uk-width-1-2@s">
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-    </aside>
-  
-  <!-- Footer -->
-    <footer class="uk-width-1-1">
-      <p>Studio Films Copyright Year</p>
-    </footer>
-    
-  </main>
+		</main>
+	
+	<!-- Footer -->
+				<footer class="uk-width-1-1">
+						<p>Elevation Pictures ©2014</p>
+				</footer>
 
-  <!-- jQuery Library   -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!--  UI Kit Framework  -->
-  <script src="js/uikit.min.js"></script>
-  <script src="js/uikit-icons.min.js"></script>
-  <!--  jQuery Plugins  -->
-  <script src="js/mediaelementplayer.js"></script>
-  <script src="js/lettering.js"></script>
-  <!--  YOUR SCRIPTS -->
-  <script src="js/scripts.js"></script>
+				<div id="vanity">
+						<img src="img/jake.png" alt="jake">
+				</div>
+
+		<!-- jQuery Library   -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!--  UI Kit Framework  -->
+		<script src="js/uikit.min.js"></script>
+		<script src="js/uikit-icons.min.js"></script>
+		<!--  jQuery Plugins  -->
+		<script src="js/mediaelementplayer.js"></script>
+		<script src="js/lettering.js"></script>
+		<!--  YOUR SCRIPTS -->
+		<script src="js/scripts.js"></script>
 
 </body>
 
